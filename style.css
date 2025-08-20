@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#botoes-meses button {
+  margin: 5px;
+}
+
+.calendario {
+  display: none;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.calendario.ativo {
+  display: grid;
+}
+
+.dia {
+  background: white;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+}
